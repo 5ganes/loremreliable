@@ -1,0 +1,16 @@
+[27-Aug-2016 15:56:26 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 15:56:26 Etc/GMT] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 15:56:26 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 15:56:26 Etc/GMT] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 15:56:35 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 15:56:35 Etc/GMT] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 15:56:35 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 15:56:35 Etc/GMT] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 16:05:24 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 16:05:24 Etc/GMT] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 16:05:24 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 16:05:24 Etc/GMT] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 16:07:52 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 16:07:52 Etc/GMT] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 102
+[27-Aug-2016 16:07:52 Etc/GMT] PHP Notice:  Undefined variable: src in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105
+[27-Aug-2016 16:07:52 Etc/GMT] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/royalubw/public_html/reliablesurgical.com.np/data/imager.php on line 105

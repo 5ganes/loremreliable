@@ -1,0 +1,462 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	line-height:inherit;
+	text-align:justify;
+
+	
+}
+
+h1	{ font-family:Georgia, "Times New Roman", Times, serif; color:#ec1b25; font-size:16px; line-height:18px; font-weight:bold; }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET CSS */
+
+body {
+	line-height: 1;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	line-height:inherit;
+	text-align:justify;background:url(../images/bg.jpg) repeat-x ;
+
+}
+
+.cb{
+	clear:both;
+	}
+
+.topborder{
+		background:url(../images/top_background.jpg) repeat-x ;
+	height:34px;	
+		
+	}	
+	
+#inner_wrapper{
+		width:1000px; margin:0 auto;
+			background:url(../images/body_color.jpg) repeat-x;
+
+}
+
+
+.logo{
+	font-family:Myriad Pro;
+	font-size:47px;
+	color:#feffff;
+	padding-top:40px;
+	float:left;
+	
+	}
+	
+	.right_top{
+		float:right;
+		padding-top:12px;
+		}
+	.right_top img{
+		margin-top:15px;
+		margin-bottom:30px;
+		float:right;
+		margin-right:5px;}
+		
+.link {
+	background:#e7e8e9;
+	border:1px solid #989ca0;
+	}
+	.link li{
+		float:left;
+	padding-top:8px;
+	padding-bottom:8px;
+		padding-right:5px;
+	
+		}
+
+		
+.menu {
+	background:#87d135;
+margin-top:10px;
+}
+	
+	.menu li:last-child a{ background:none;}
+	.menu li{
+		float:left;
+		padding-top:12px;
+		padding-bottom:10px;
+		padding-right:10px;
+	
+		position:right;
+		padding-left:10px;
+		}		
+.menu a{
+	text-decoration:none;
+	color:#000;
+	font-size:15px;
+
+		background:url(../images/menu_bar.png) no-repeat right;
+		padding-right:20px;
+		
+	}
+	
+.slider{
+	float:left;
+	width:645px;
+	}
+.slider_content{
+	padding-top:17px;
+
+	
+	}
+.right_slider_content{
+			float:left;
+			background:url(../images/destination_border.jpg) repeat-x #1ac0e8;
+			margin-left:20px;
+			width:295px;
+			padding:20px;
+	}	
+	
+	
+.title{
+	font-weight:bold;
+	font-size:16px;
+	 padding-bottom:10px;
+	}	
+
+.detail{
+	font-size:11px; line-height:10px;font-family:Verdana, Geneva, sans-serif;	 padding-bottom:20px;
+	}
+	
+.destination{
+		font-size:21px;font-family:Verdana, Geneva, sans-serif; text-align:left; color:#0098d8; padding-bottom:10px;
+	}	
+.destination_detail
+{
+	margin-left:10px;
+	padding-bottom:15px;
+}
+.destination_detail img{
+	margin-right:20px;
+	}
+	
+.more{
+	float:right;
+	}
+.packages{
+		background:url(../images/package_border.png) repeat-x ;height:42px;margin-top:15px; border-radius:10px;
+
+	}
+.activities{
+	float:left;
+	padding:14px;
+	font-size:15px;font-family:Verdana, Geneva, sans-serif;	
+	color:#e33300;
+	background:url(../images/button.jpg) no-repeat left center;
+margin-left:20px;
+	
+	}
+.available_packages{
+		float:left;
+			padding:14px;
+		font-size:15px;font-family:Verdana, Geneva, sans-serif;	
+	color:#e33300;
+		background:url(../images/button.jpg) no-repeat left center;
+margin-left:20px;
+	}	
+	.search{
+			float:right;
+			padding:14px;
+		}
+.below_activities{
+	padding:15px;
+	}
+.navigation{
+	background-color:#e8e9e9;
+	 border-radius:10px;
+	 width:177px;
+	 float:left;
+	border:1px solid #cbcccd;
+	padding-left:47px;
+
+	}
+.navigation li{
+	 margin:10px 0px;
+	}
+.navigation li a{
+	text-decoration:none; 
+	background:url(../images/navigation_button.jpg) no-repeat left;
+padding-left:15px;
+
+	}	
+.tours_destiny{
+
+	float:right; width:713px;
+	border:1px solid #dbdbdb;
+	border-radius:10px;
+	padding:10px;
+	}
+.dynamic{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:14px;
+	padding-right:17px;
+	}
+.introduction{
+	border:1px solid #2f3292;
+	width:566px;
+	padding-left:26px;
+	padding-right:26px;
+	 padding-bottom:24px;
+	 float:left;
+	}
+.intro{
+	color:#2e3192;
+	padding-top:10px;
+	font-size:17px;
+	padding-bottom:17px;
+	}
+	
+	.call_us{
+		width:318px;
+		border:1px solid #9698c8;
+		float:left;
+	
+		padding-bottom:15px;
+		}
+	.call_us_header{
+ background:#69c815;
+ width:287px;
+ height:44px;
+ margin:16px;
+ border-radius:5px;
+}
+.header_title{
+	font-size:21px;
+	margin-left:63px;
+	margin-top:12px;
+	float:left;
+		
+	}
+	
+		.header_cal{
+			font-size:21px;
+	margin-left:63px;
+	margin-top:12px;
+	float:left;
+	padding-left:50px;
+		background: url(../images/call_us.png) no-repeat left;
+		}
+.nepal{
+	font-size:19px;
+	color:#2e3192;
+	margin-left:46px;
+	}
+.num{
+		margin-left:46px;
+		line-height:25px;
+	}
+.gallery{
+	width:620px;
+	padding-top:20px;
+	float:left;
+	}
+	.gallery li{
+		width:190px;
+		float:left;
+	 margin-right:25px;
+	 margin-bottom:12px;
+		}
+		
+		.gallery li:nth-child(3n+3){ margin:0;}
+		
+		.quick_inquiry{
+		width:288px;
+		border:2px solid #9698c8;
+		float:left;
+		margin-left:28px;
+		padding:15px;
+		margin-top:20px;
+	
+		}
+	.quick_inquiry_header{
+ background:#69c815;
+ width:287px;
+ height:44px;
+ border-radius:5px;
+	margin-bottom:10px;
+}
+		
+.best_package{
+	 background:#69c815;
+ width:623px;
+ height:48px;
+border-radius:5px;
+margin-bottom:1px;
+float:left;
+	}	
+	
+.tour{
+	width:583px;
+	border:1px solid #303393;
+	padding:18px;
+	float:left;
+	}
+	
+		.tour_title{
+			font-weight:bold;
+	font-size:18px;
+	 padding-bottom:10px;
+	 color:#0098d8;
+	 }
+	.tour_package img {
+		margin-right:27px;
+		padding-bottom:18px;
+		}
+.submit{
+		background:url(../images/submit.jpg) no-repeat left; width:112px;height:30px;
+	}
+	.fb{
+		float:left;
+		padding-left:28px;
+		padding-top:25px;}
+		
+.outer_footer{
+	background-color:#005bab;
+	margin-top:15px;
+
+	}	
+	
+.footer_wrapper{
+	background-color:#00529a;
+	width:1000px; margin:0 auto;
+	
+	}
+.footer_panel{
+	float:left;
+	background-color:#004a8a;
+	width:211px; margin-right:5px;
+	height:195px; padding:13px;
+		}
+
+
+.footer_panel li a{
+	text-decoration:none;
+	line-height:10px; font-weight:normal;
+	color:#FFF;
+	font-size:11px;
+	background: url(../images/asterisk.jpg) no-repeat left;
+	padding-left:10px ;
+	}	
+	
+.footer{ padding:15px;}
+
+.footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+.link_letter{
+	float:left;
+		background-color:#00529a;
+		width:1000px;
+		padding-bottom:10px;
+	}		
+	.subscribe{
+
+			background:url(../images/a.png) repeat-x; width:190px; height:26px; border:none; border-radius:5px;
+		}
+.subscribe_news ul li{
+	float:left;}
+.sub_submit{
+	background:url(../images/b.png) no-repeat left; width:95px; height:30px;border:none;
+	}
+	.footer_left{
+		float:left;
+		width:300px;
+		margin-left:118px;
+		}
+	.newsletter_section{
+		float:left;
+		padding-bottom:10px;
+		
+		}
+	.subscribe_news{
+		float:left;
+		margin-left:5px;
+			background:url(../images/newsletter.png) no-repeat left; 
+		}
+.newletter_section_title{
+	font-size:15px;
+		color:#FFF;
+	}
+	.signup{
+		font-size:12px;
+		}
+		.copyright{
+			float:left;
+		margin-top:2px;
+		background:#00529a;
+		margin-bottom:15px;
+		border-radius:5px;
+		height:44px;
+		width:1000px;
+		}
+	.copyright_left{
+		width:500px;
+		float:left;
+		margin-left:10px;
+		color:#FFF;
+		line-height:50px;
+		}
+		.copyright_right{
+		margin-right:15px;
+			float:right;
+				color:#FFF;
+						line-height:50px;
+		}

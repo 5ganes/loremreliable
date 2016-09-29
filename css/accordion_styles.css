@@ -1,0 +1,24 @@
+.glossymenu {
+    margin: 0 auto;
+    padding: 8px 0 3px;
+}
+.glossymenu h1{ background:#3399FF; margin-bottom:4px;}
+
+.glossymenu a.menuitem	{ background:url(../images/index_accordion_head.png) top left no-repeat; font-family:Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#fff; display:block; position:relative; /*To help in the anchoring of the ".statusicon" icon image*/ height:34px; padding-left:15px; line-height:36px; text-decoration:none;	}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active	{ color:#fff;	}
+
+.glossymenu a.menuitem .statusicon	{ /*CSS for icon image that gets dynamically added to headers*/ position:relative; top:0px; left:145px; border:none;	}
+
+.glossymenu a.menuitem:hover	{ background:url(../images/index_accordion_head-hover.png) top left no-repeat;	}
+
+.glossymenu div.submenu	{ /*DIV that contains each sub menu*/ background:url("../images/common_midCtnr_bg-white.png") repeat scroll 0 0 rgba(0, 0, 0, 0);	}
+
+.glossymenu div.submenu ul	{ /*UL of each sub menu*/ list-style-type:none; margin:0; padding:0;	}
+
+.glossymenu div.submenu ul li	{ padding:8px; font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:18px; font-weight:normal; color:#2E1814;	}
+
+.glossymenu div.submenu ul li a	{ text-decoration:none; color:#400000; font-weight:bold; display:block; float:right	}
+
+.glossymenu div.submenu ul li a:hover	{ color:#6F0000;	}
